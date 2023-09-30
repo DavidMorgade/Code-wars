@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 
-public class ZywOo {
+
+public class MultipleOfIndex {
   public static int[] multipleOfIndex(int[] array) {
     ArrayList<Integer> intList = new ArrayList<Integer>();
     for(int i = 0; i<array.length; i++) {
