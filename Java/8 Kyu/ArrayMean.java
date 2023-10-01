@@ -23,6 +23,10 @@ For an example list of 1, 3, 5, 7
 public class ArrayMean {
 
   public static int findAverage(int[] nums) {
-    return 0;
+    int total = nums[0];
+    for (int i = 1; i < nums.length; i++) {
+      total += nums[i];
+    }
+    return total / nums.length;
   }
 }

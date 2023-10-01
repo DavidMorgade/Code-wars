@@ -30,6 +30,6 @@ public class HighestProfitWins {
         solution[1] = arr[i];
       }
     }
-    return arr;
+    return solution;
   }
 }
