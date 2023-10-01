@@ -1,3 +1,8 @@
 index.html
 Main.java
 .prettierrc
+./C#/bin
+./C#/obj
+./C#/C#.csproj
+./C#/C#.sln
+./C#/Program.cs
