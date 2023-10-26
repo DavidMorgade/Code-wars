@@ -30,41 +30,46 @@ AlphabetWar("wwwwwwz");  //=> Left side wins!
  */
 
 public class AlphabetWar {
-    public static String alphabetWar(String fight) {
-        int rightScore = 0;
-        int leftScore = 0;
-        for (int i = 0; i < fight.length(); i++) {
-            if(fight.charAt(i) == 'w') {
-                leftScore+=4;
-            }
-            if(fight.charAt(i) == 'p') {
-                leftScore+=3;
-            }
-            if(fight.charAt(i) == 'b') {
-                leftScore+=2;
-            }
-            if(fight.charAt(i) == 's') {
-                leftScore+=1;
-            }
-            if(fight.charAt(i) == 'm') {
-                rightScore+=4;
-            }
-            if(fight.charAt(i) == 'q') {
-                rightScore+=3;
-            }
-            if(fight.charAt(i) == 'd') {
-                rightScore+=2;
-            }
-            if(fight.charAt(i) == 'z') {
-                rightScore+=1;
-            }
-        }
-        if(rightScore > leftScore) {
-            return "Right side wins!";
-        } else if(leftScore > rightScore) {
-            return "Left side wins!";
-        } else {
-            return "Let's fight again!";
-        }
+
+  public static String alphabetWar(String fight) {
+    int rightScore = 0;
+    int leftScore = 0;
+    for (int i = 0; i < fight.length(); i++) {
+      if (fight.charAt(i) == 'w') {
+        leftScore += 4;
+      }
+      if (fight.charAt(i) == 'p') {
+        leftScore += 3;
+      }
+      if (fight.charAt(i) == 'b') {
+        leftScore += 2;
+      }
+      if (fight.charAt(i) == 's') {
+        leftScore += 1;
+      }
+      if (fight.charAt(i) == 'm') {
+        rightScore += 4;
+      }
+      if (fight.charAt(i) == 'q') {
+        rightScore += 3;
+      }
+      if (fight.charAt(i) == 'd') {
+        rightScore += 2;
+      }
+      if (fight.charAt(i) == 'z') {
+        rightScore += 1;
+      }
     }
+    if (rightScore > leftScore) {
+      return "Right side wins!";
+    } else if (leftScore > rightScore) {
+      return "Left side wins!";
+    } else {
+      return "Let's fight again!";
+    }
+  }
+
+  public static boolean isEqual(int a, int b) {
+    return a > b;
+  }
 }
