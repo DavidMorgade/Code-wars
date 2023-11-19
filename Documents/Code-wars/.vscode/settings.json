@@ -1,0 +1,7 @@
+{
+  "[java]": {
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  },
+  "java.project.sourcePaths": [".", "Java", "Java\\7 Kyu", "Java\\8 Kyu", "Java\\6 Kyu"]
+}
