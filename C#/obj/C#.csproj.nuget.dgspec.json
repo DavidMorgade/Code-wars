@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "D:\\documentos manjaro\\Code wars\\C#\\C#.csproj": {}
+    "C:\\Users\\david\\Documents\\DAM\\Code Wars\\C#\\C#.csproj": {}
   },
   "projects": {
-    "D:\\documentos manjaro\\Code wars\\C#\\C#.csproj": {
+    "C:\\Users\\david\\Documents\\DAM\\Code Wars\\C#\\C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\documentos manjaro\\Code wars\\C#\\C#.csproj",
+        "projectUniqueName": "C:\\Users\\david\\Documents\\DAM\\Code Wars\\C#\\C#.csproj",
         "projectName": "C#",
-        "projectPath": "D:\\documentos manjaro\\Code wars\\C#\\C#.csproj",
+        "projectPath": "C:\\Users\\david\\Documents\\DAM\\Code Wars\\C#\\C#.csproj",
         "packagesPath": "C:\\Users\\david\\.nuget\\packages\\",
-        "outputPath": "D:\\documentos manjaro\\Code wars\\C#\\obj\\",
+        "outputPath": "C:\\Users\\david\\Documents\\DAM\\Code Wars\\C#\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\david\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
