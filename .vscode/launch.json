@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "isADigit",
+      "request": "launch",
+      "mainClass": "isADigit",
+      "projectName": "Code Wars_e11aab8e"
+    },
+    {
+      "type": "java",
       "name": "AlphabetWar",
       "request": "launch",
       "mainClass": "AlphabetWar",
