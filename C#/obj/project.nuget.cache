@@ -1,12 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "3WY0MpBvTD4WrJzYd2i/lO/3Tdtal92OU8LCD6GJKP/7a6teBC53HqvU94Au2SICRMZ1F67XHVuOu7Scmgvitw==",
-=======
-  "dgSpecHash": "uzO+xjM1zJ78UEDwb76uKUNVI7RKbpaZjI1fenSckhxtW5f3t4KSSZezeAxMDL20ejMN6mRgdVR6mAGHy1jrQQ==",
->>>>>>> 40e8a632e64ccb1fcb575bd8729d9f44bc695540
   "success": true,
   "projectFilePath": "C:\\Users\\david\\Documents\\DAM\\Code Wars\\C#\\C#.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\david\\Documents\\DAM\\Code Wars\\C#\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
