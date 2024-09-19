@@ -7,9 +7,7 @@ function hexStringToRGB(hexString) {
     b: rgbArr[2]
   }
 }
-
-function splitEveryTwo(str) {
-  const result = [];
+function splitEveryTwo(str) { const result = [];
   for(let i = 1; i < str.length; i+=2) {
     result.push(str.substring(i, i + 2));
   }
